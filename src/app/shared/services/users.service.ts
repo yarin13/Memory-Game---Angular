@@ -20,6 +20,7 @@ export class UsersService {
 
 
   public getUsers() {
+    this.images = [];
       this.myHttpClient
           .get<RootObject>("https://reqres.in/api/users?page=2")
           .subscribe(
