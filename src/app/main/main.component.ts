@@ -38,6 +38,7 @@ constructor(private myUsersService: UsersService) {
   this._randArr = this.randArr;
   this.steps = 0;
   this._timer = 0;
+  this.pairs = 0;
   this.timerFlag = false;
   this.disableFuncFlag = false;
   
